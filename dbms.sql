@@ -104,3 +104,29 @@ insert into sales_order_details values
 ('O46866', 'P07975', 1 ,0 ,175),
 ('O19008', 'P00001', 8 ,6 ,250),
 ('O19008', 'P07975', 5 ,4, 175);
+
+										-- DBMS PRACTICAL 4 
+
+create table employee(
+name varchar(50) not null, 
+age int , 
+city varchar(30),
+desgnation varchar(30), 
+department varchar(25) not null,
+salary decimal(10,2),
+jointdate date 
+);
+
+insert into employee values
+('Rohan patel', 26 , NULL, 'salesman', 'sales', 9000, NULL), 
+('virat', 32 , NULL ,'admin', 'admin', 10000, NULL ),
+('sameer', 32 , NULL ,'accountant', 'admin', 12000 ,NULL), 
+('Hares', 24 , NULL ,'salesman','sales', 11000 ,NULL), 
+('Hema trivedi', 36 , 'baroda', 'cleark', 'production', 18000 ,'1997-03-14' ),
+('Vimal khatri', 38 , 'pune', 'manager', 'production' ,25000 ,'2001-07-23' ),
+('sunit', 24 , 'baroda', 'worker', 'production', 9000, '2005-06-19'), 
+('reema', 26 , 'surat',' worker', 'sales', 8800, '2007-08-29'), 
+('ruhan', 33 , 'surat', 'cleark ', 'admin', 22000 ,'2008-05-22'), 
+('suresh', 25, 'baroda', 'peon', 'production' ,5000 ,'2012-02-14'), 
+('suhana', 34, 'pune', 'manager', 'sales' ,30000 ,'2014-08-23');
+
